@@ -13,12 +13,13 @@ import java.util.Random;
  * free Pi coins, then asks for their private keys.
  * By overwhelming the scammers with fake keys linked to empty wallets,
  *  we make their "job" a bit harder—and their stolen database a lot more useless.
+ * New domain pimineapp.com
  */
 
 public class PiMinexFlooder {
     private static final long DEFAULT_DELAY_TIME = 2500;
     public static void main(String[] args) throws Exception {
-        String uriStr = "https://piminex.com/wp-admin/admin-ajax.php";
+        String uriStr = "https://pimineapp.com/wp-admin/admin-ajax.php";
         /*
          * Default 1 thread.
          * If users specifies more threads than the actual available processors
